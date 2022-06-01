@@ -1,4 +1,4 @@
-# Deploy WordPress Instance on Kubernetes
+# Deploy WordPress Mysql on Kubernetes
 
 ### 1. Clone the repository
     $ git https://github.com/paawanyadav/kubernetes_wordpress-mysql.git
