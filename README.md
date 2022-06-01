@@ -17,7 +17,7 @@
     $ kubectl wordpress.yaml
 
 ### 5. By Using NodePort
-    -- Uncomment line 56 and 63
+    -- Uncomment line 53 and 60
     -- Again Follow Apply files 
     -- kubectl get all -o wide --> by this see where your wordpress is running in which node 
     -- Hit node IP with NodePort 30080  --> IP:30080
