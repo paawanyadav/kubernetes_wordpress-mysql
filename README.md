@@ -17,14 +17,12 @@
     $ kubectl wordpress.yaml
 
 ### 5. By Using NodePort
-    -- Uncomment line 53 and 60
+    -- Uncomment line 53 and 60 in file wordpress.yaml
     -- Again Follow Apply files 
     -- kubectl get all -o wide --> by this see where your wordpress is running in which node 
     -- Hit node IP with NodePort 30080  --> IP:30080
 
-### 6. By Using Ingress
-
-### 7. Importannt Commands
+### 6. Importannt Commands
     -- kubectl cluster-info  --> Give Cluster information
     -- kubectl get all -o wide  --> Detailed information about on going process
     -- kubectl get deploy  --> Give details of deployment
